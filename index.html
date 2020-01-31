@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="assets/main.css" type="text/css">
       
       <style type="text/css">
+          
+          body{
+              background-image:url(assets/bg.jpg);
+              background-size:cover;
+          }
+          
+          #landing{
+              color:#fff;
+          }
         
           #landing h3{
               display: block;
@@ -21,7 +30,8 @@
           
           #landing h1{
               font-weight:800;
-              font-size:2.4em;
+              font-size:2.8em;
+              color:#dea750;
               text-align: center;
           }
           
@@ -47,12 +57,28 @@
           }
           
           
+          a.btn{
+              -webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+-ms-transition: all .3s linear;
+-o-transition: all .3s linear;
+transition: all .3s linear;
+              
+          }
+          
+          #landing a.btn:hover{
+              background:#dea750 !important;
+              color:#000;
+              transform: translateY(-4px);
+          }
+          
+          
       </style>
       
   </head>
   <body>
       
-      <div id="container" style="background:#ccc;">
+      <div id="container">
     <div id="landing" class="box" style="height:100%">
         
     <div class="center">
